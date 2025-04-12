@@ -37,7 +37,7 @@ Data from sales transactions were collected and cleaned for analysis. The origin
 ## Data Preparation
 The raw data has been imported from Microsoft Excel into Microsoft Power BI for analysis. Preliminary assessment in Excel indicates the presence of inconsistencies that need to be addressed to ensure the data is suitable for accurate and reliable analysis.
 
-[Data Assessment .pdf](https://github.com/user-attachments/files/19722394/Data.Assessment.pdf)
+![Data Assessment .pdf](https://github.com/user-attachments/files/19722394/Data.Assessment.pdf)
 
 
 
