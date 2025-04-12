@@ -19,6 +19,17 @@ Data from sales transactions were collected and cleaned for analysis. The origin
 ## Tools
 
 - Excel for data assessment [Download here](https:/microsoft.com)
-- PowerBI for data cleaning and creating report
-- SQL for descriptive analytics
+- PowerBI for data cleaning and creating report [Download here](https:/PowerBI.com)
+- SQL for descriptive analytics [Download here](https:/SQL.com)
+
+## Data Preparation
+The raw data has been imported to Microsoft Power BI for analysis. It contains some inconsistencies that must be handled to make it suitable for the analysis.
+
+- ### Features engineering
+
+In PowerBI, we created a new feature called Time by splitting the original column datetime (3/1/2024 10:15:51 AM) into Column (Date) → 3/1/2024 and Column (Time) → 10:15:51 AM. The Column (Time) → 10:15:51 AM is also spitted into Column (Time) → 10:15:51 and Column (Time Period) → AM/PM. This will enable us to identify the time period that the company experience peak sales.
+
+- ### Data cleaning
+
+In PowerBI, Data profiling technique has been implemented to analyze the data to better understand its structure, quality, and content. 9% of the variable "card" are empty. However, this variable will not contribute to our analysis, so we removed it from the data.
 
