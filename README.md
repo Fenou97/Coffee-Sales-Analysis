@@ -23,7 +23,7 @@ Data from sales transactions were collected and cleaned for analysis. The origin
 - SQL for descriptive analytics [Download here](https:/SQL.com)
 
 ## Data Preparation
-The raw data has been imported to Microsoft Power BI for analysis. It contains some inconsistencies that must be handled to make it suitable for the analysis.
+The raw data has been imported from Microsoft Excel into Microsoft Power BI for analysis. Preliminary assessment in Excel indicates the presence of inconsistencies that need to be addressed to ensure the data is suitable for accurate and reliable analysis.
 
 - ### Features engineering
 
