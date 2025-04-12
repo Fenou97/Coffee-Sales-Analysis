@@ -75,4 +75,10 @@ LIMIT 5;
 
 ## Results and Findings
 
+## Recommendations
+
+## Limitations
+- The presence of missing values in the data, particularly in the 'card' column, highlights potential issues in the data collection process. These gaps may stem from human-related errors, such as incorrect or incomplete data entry, or from software limitations during data handling or transfer.
+
+- Insufficient feature availability required the generation of additional features from existing variables to extract meaningful insights from the data.
 
