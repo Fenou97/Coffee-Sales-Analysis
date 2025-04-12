@@ -1,5 +1,17 @@
 # Coffee Sales Analysis
 
+## Table of contents
+
+- [Project Overview](#project-overview)
+- [Research Questions](#research-questions)
+- [Data Sources](#data-sources)
+- [Tools](#tools)
+- [Data Preparation](#data-preparation)
+- [Exploratory Data Analysis](#exploratory-data-analysis)
+- [Results and Findings](#results-and-findings)
+- [Recommendations](#recommendations)
+- [Limitations](#limitations)
+
 ## Project Overview
 
 This project aimed to evaluate and improve the sales performance of Coffee Shop by analyzing historical sales data. The primary objectives were to identify sales trends, assess the effectiveness of sales strategies, and discover key factors influencing sales outcomes.
