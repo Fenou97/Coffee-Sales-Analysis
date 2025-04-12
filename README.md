@@ -25,11 +25,54 @@ Data from sales transactions were collected and cleaned for analysis. The origin
 ## Data Preparation
 The raw data has been imported from Microsoft Excel into Microsoft Power BI for analysis. Preliminary assessment in Excel indicates the presence of inconsistencies that need to be addressed to ensure the data is suitable for accurate and reliable analysis.
 
-- ### Features engineering
+- ### Features Engineering
 
 In PowerBI, we created a new feature called Time by splitting the original column datetime (3/1/2024 10:15:51 AM) into Column (Date) → 3/1/2024 and Column (Time) → 10:15:51 AM. The Column (Time) → 10:15:51 AM is also spitted into Column (Time) → 10:15:51 and Column (Time Period) → AM/PM. This will enable us to identify the time period that the company experience peak sales.
 
-- ### Data cleaning
+- ### Data Cleaning
 
 In PowerBI, Data profiling technique has been implemented to analyze the data to better understand its structure, quality, and content. 9% of the variable "card" are empty. However, this variable will not contribute to our analysis, so we removed it from the data.
+
+## Exploratory Data Analysis
+
+We used SQL to perfrom some descriptive summaries. Here are some of the code written.
+
+- ### View all records
+```sql
+SELECT * FROM[dbo].[Coffee Sales Data];
+```
+
+- ### See distinct coffee name
+```sql
+SELECT DISTINCT coffee_name FROM [dbo].[Coffee Sales Data] ;
+```
+
+- ### Check data range
+```sql
+SELECT MIN(date), MAX(date) FROM [dbo].[Coffee Sales Data];
+```
+
+- ### Total sales
+```sql
+SELECT SUM(money) AS total_sales FROM[dbo].[Coffee Sales Data] ;
+```
+
+- ### Sales by coffee name
+```sql
+SELECT coffee_name, SUM(money) 
+FROM [dbo].[Coffee Sales Data]
+GROUP BY coffee_name;
+```
+
+- ### Top 5 best-selling coffee
+```sql
+SELECT coffee_name, SUM(money) AS revenue 
+FROM [dbo].[Coffee Sales Data]
+GROUP BY coffee_name
+ORDER BY revenue DESC
+LIMIT 5;
+```
+
+## Results and Findings
+
 
