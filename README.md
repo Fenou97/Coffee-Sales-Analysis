@@ -93,7 +93,7 @@ LIMIT 5;
 ```
 
 ## Results and Findings
-- ### Count of Coffee Name by Coffee Name & Sum of Money by Coffee Name
+- ### Coffee Popularity and Revenue
 
 ![Finding 1](https://github.com/user-attachments/assets/2b1b0e5a-7461-41f4-9253-7332e8df6930)
 
@@ -107,9 +107,25 @@ LIMIT 5;
 
 **Lowest revenue**: Espresso and Cocoa 
 
-**Although Americano with Milk has the highest count, Latte generated the most revenuelikely due to a higher unit price**.
+**Although Americano with Milk has the highest count, Latte generated the most revenue likely due to a higher unit price**.
+
+- ### Coffee purchase
 
 ![Finding 2](https://github.com/user-attachments/assets/42acb3db-60c0-45a3-9877-72ee5f810fb7)
+
+AM purchases dominate with a count close to 900.
+
+PM purchases are significantly lower, estimated around 100.
+
+**Coffee is overwhelmingly purchased in the morning (AM) compared to the afternoon or evening (PM). This supports a common behavior pattern where people tend to consume more coffee earlier in the day, likely to boost alertness and energy levels at the start of their day**.
+
+Card payments are used predominantly, also near 900.
+
+Cash payments are quite minimal, roughly around 100.
+
+**Most customers prefer using cards (credit/debit) to pay for coffee, indicating a shift toward cashless transactions. This could reflect convenience, modern payment preferences, or a demographic comfortable with digital transactions**.
+
+
 
 ![Finding 3](https://github.com/user-attachments/assets/1e1439b2-ad09-4981-a51e-8a6c1af94e94)
 
@@ -122,6 +138,11 @@ LIMIT 5;
 
 
 ## Recommendations
+
+While Latte may be the most profitable per unit and should be promoted more, Americano with Milk has strong volume and we can consider bundling or loyalty promos. Upselling higher-margin drinks (e.g., Lattes, Cappuccinos) could boost revenue. However, Cocoa and Espresso may need marketing revamps or removal if not profitable.
+
+The majority of coffee purchases occur in the morning and are paid for using a card. This could inform business decisions such as: staffing more in the morning hours to handle peak demand, offering loyalty programs or promotions targeting morning buyers, ensuring efficient card payment systems to accommodate customer preferences.
+
 
 ## Limitations
 - The presence of missing values in the data, particularly in the 'card' column, highlights potential issues in the data collection process. These gaps may stem from human-related errors, such as incorrect or incomplete data entry, or from software limitations during data handling or transfer.
