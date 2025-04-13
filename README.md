@@ -139,9 +139,9 @@ Cash payments are quite minimal, roughly around 100.
 
 ## Recommendations
 
-While Latte may be the most profitable per unit and should be promoted more, Americano with Milk has strong volume and we can consider bundling or loyalty promos. Upselling higher-margin drinks (e.g., Lattes, Cappuccinos) could boost revenue. However, Cocoa and Espresso may need marketing revamps or removal if not profitable.
+- While Latte may be the most profitable per unit and should be promoted more, Americano with Milk has strong volume and we can consider bundling or loyalty promos. Upselling higher-margin drinks (e.g., Lattes, Cappuccinos) could boost revenue. However, Cocoa and Espresso may need marketing revamps or removal if not profitable.
 
-The majority of coffee purchases occur in the morning and are paid for using a card. This could inform business decisions such as: staffing more in the morning hours to handle peak demand, offering loyalty programs or promotions targeting morning buyers, ensuring efficient card payment systems to accommodate customer preferences.
+- The majority of coffee purchases occur in the morning and are paid for using a card. This could inform business decisions such as: staffing more in the morning hours to handle peak demand, offering loyalty programs or promotions targeting morning buyers, ensuring efficient card payment systems to accommodate customer preferences.
 
 
 ## Limitations
