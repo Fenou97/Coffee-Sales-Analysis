@@ -37,21 +37,21 @@ Data from sales transactions were collected and cleaned for analysis. The origin
 ## Data Preparation
 The raw data has been imported from Microsoft Excel into Microsoft Power BI for analysis. Preliminary assessment in Excel indicates the presence of inconsistencies that need to be addressed to ensure the data is suitable for accurate and reliable analysis.
 
-![Data Assessment](https://github.com/user-attachments/assets/0f4128bf-10fc-49ba-a0c4-29c072a8c01d)
-
+![Data Assessement 2](https://github.com/user-attachments/assets/aaab5194-46ed-4880-8c52-0f83df4aa318)
 
 - ### Features Engineering
 
 In PowerBI, we created a new feature called Time by splitting the original column datetime (3/1/2024 10:15:51 AM) into Column (Date) → 3/1/2024 and Column (Time) → 10:15:51 AM. The Column (Time) → 10:15:51 AM is also spitted into Column (Time) → 10:15:51 and Column (Time Period) → AM/PM. This will enable us to identify the time period that the company experience peak sales.
 
-![Features Engineering](https://github.com/user-attachments/assets/bed7fa56-955f-443b-8d8a-9ef8ff6c872e)
-
+![Features Engineering 2](https://github.com/user-attachments/assets/1d4d4055-fa5c-4393-a17e-c441dd8a2747)
 
 - ### Data Cleaning
 
 In PowerBI, Data profiling technique has been implemented to analyze the data to better understand its structure, quality, and content. 9% of the variable "card" are empty. However, this variable will not contribute to our analysis, so we removed it from the data.
 
-![Data Profiling](https://github.com/user-attachments/assets/3525fbd3-47a7-41b1-ae15-b3a0f19d81f2)
+![Data Profiling 2](https://github.com/user-attachments/assets/8400f9ed-a94e-49e1-b726-243a2c15bf5b)
+
+
 ## Exploratory Data Analysis
 
 We used SQL to perfrom some descriptive summaries. Here are some of the code written.
@@ -125,23 +125,25 @@ Cash payments are quite minimal, roughly around 100.
 
 **Most customers prefer using cards (credit/debit) to pay for coffee, indicating a shift toward cashless transactions. This could reflect convenience, modern payment preferences, or a demographic comfortable with digital transactions**.
 
-
+### - Sales and Revenues Trends
 
 ![Finding 3](https://github.com/user-attachments/assets/1e1439b2-ad09-4981-a51e-8a6c1af94e94)
 
-![Finding 4](https://github.com/user-attachments/assets/17afbecb-c33a-49a8-8716-78ce0b9f41f8)
+The month of May had the highest sales volume, with over 260 units and also generated the most money, around $9,000.
 
+Both the number of coffee sales and revenue sharply declined in July. Sales volume fell to under 100 and revenue dropped to about $2,500.
 
-
-
-
-
+March, April, and June all had relatively stable figures. Sales volume ranged between 190–230 units and revenue was between $6,800–$7,800.
 
 ## Recommendations
 
 - While Latte may be the most profitable per unit and should be promoted more, Americano with Milk has strong volume and we can consider bundling or loyalty promos. Upselling higher-margin drinks (e.g., Lattes, Cappuccinos) could boost revenue. However, Cocoa and Espresso may need marketing revamps or removal if not profitable.
 
-- The majority of coffee purchases occur in the morning and are paid for using a card. This could inform business decisions such as: staffing more in the morning hours to handle peak demand, offering loyalty programs or promotions targeting morning buyers, ensuring efficient card payment systems to accommodate customer preferences.
+- The majority of coffee purchases occur in the morning and are paid for using a card. This could inform business decisions such as staffing more in the morning hours to handle peak demand, offering loyalty programs or promotions targeting morning buyers, ensuring efficient card payment systems to accommodate customer preferences.
+
+- Capitalize on peak months (e.g., May) by promoting best-selling products from May during other months, replicating successful campaigns, discounts, or events that were run in May, and analyzing customer behavior in May to understand what drove the spike.
+
+- Investigate and address July drop by conducting a root cause analysis to see if there were any supply chain or staffing issues or a downtime.
 
 
 ## Limitations
